@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static('client'));
 
 
-var port = 5459;
+var port = process.env.PORT || 5459;
 
 app.listen(port);
 console.log('Server now listening on port ' + port);
