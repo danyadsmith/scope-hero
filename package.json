@@ -1,0 +1,25 @@
+{
+  "name": "scope-hero",
+  "version": "1.0.0",
+  "description": "For makers who need an effective tool to document and discuss the scope of an app, product or project, ScopeHero is an application that allows users to compile and rate features in terms of impact and effort. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danyadsmith/scope-hero.git"
+  },
+  "author": "Danya D. Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danyadsmith/scope-hero/issues"
+  },
+  "homepage": "https://github.com/danyadsmith/scope-hero#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "mongoose": "^4.8.7"
+  }
+}
