@@ -18,8 +18,7 @@ Once the project moves into development, the press release can be used as a touc
  
 ## The arch nemesis of ScopeCreep
 
-## Sub-Heading ##
-  > For makers who need an effective tool to document and discuss the scope of an app, product or project, Scope Hero is an application that allows users to compile and rate features in terms of impact and effort. 
+  > For makers who need an effective tool to document and discuss the scope of an app, product or project, ScopeHero is an application that allows users to compile and rate features in terms of impact and effort. 
 
 ## Summary ##
 
@@ -41,6 +40,7 @@ When developing a new application or product, it is a common to feel that all fe
 
 ScopeHero provides a visual tool that members of the project team can use to rate each feature by impact and effort. During the identification process, the discussions that ensue will help to derive the metrics collected to manage the scope and focus of the project from inception to shipment.
 
+<!--
 ## Quote from You ##
   > A quote from a spokesperson in your company.
 
@@ -52,3 +52,5 @@ ScopeHero provides a visual tool that members of the project team can use to rat
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+-->
