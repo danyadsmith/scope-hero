@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var connection = mongoose.connection;
 
-mongoose.connect('mongodb://localhost/scopehero');
+mongoose.connect(process.env.MONGODB_URI);
 
 connection.on('error', console.error.bind(console, 'MongoDB Error: '));
 connection.once('open', function () {
