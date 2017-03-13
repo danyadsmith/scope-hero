@@ -4,7 +4,7 @@ var session = require('express-session');
 var mongoose = require('mongoose');
 
 var app =  express();
-//mongoose.connect('mongodb://localhost/scope-hero');
+mongoose.connect('mongodb://localhost/scope-hero');
 
 app.use(bodyParser.json());
 app.use(express.static('client'));
