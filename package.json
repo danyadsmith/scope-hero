@@ -4,6 +4,7 @@
   "description": "For makers who need an effective tool to document and discuss the scope of an app, product or project, ScopeHero is an application that allows users to compile and rate features in terms of impact and effort. ",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
