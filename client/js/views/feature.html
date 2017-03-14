@@ -1,0 +1,18 @@
+  <table ng-controller="FeatureController as featureCtrl">
+    <thead>
+      <th>Feature</th>
+      <th>Area</th>
+      <th>Category</th>
+      <th>Impact</th>
+      <th>Effort</th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="feature in featureCtrl.features">
+        <td>{{ feature.feature }}</td>
+        <td>{{ feature.area }}</td>
+        <td>{{ feature.category }}</td>
+        <td>{{ feature.impact }}/10</td>
+        <td>{{ feature.effort }}/10</td>
+      </tr>
+    </tbody>
+  </table>

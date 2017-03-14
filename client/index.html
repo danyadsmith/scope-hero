@@ -5,15 +5,29 @@
   <title>ScopeHero</title>
   <link href="https://fonts.googleapis.com/css?family=Passion+One:700|Rubik:400,400i,500" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" type="text/css">
+  <script src="js/lib/angular.min.js"></script>
+  <script src="http://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script type='text/javascript' src='js/lib/canvasjs.min.js'></script>
+  <script type='text/javascript' src='js/lib/jquery.canvasjs.min.js'></script>
 </head>
 <body>
   <h1>ScopeHero</h1>
+  <a ui-sref="home" ui-sref-active="active">Home Page</a>
+  <a ui-sref="app" ui-sref-active="active">Project</a>
 
-  <div ng-view></div>
+  <div class="home-panel" ui-view="homePanelView"></div>
+  <div class="project-panel" ui-view="projectPanelView"></div>
+  <div class="matrix-panel" ui-view="matrixPanelView"></div>
+  <div class="features-panel" ui-view="featuresPanelView"</div>
 
-  <script src="js/lib/angular.min.js"></script>
-  <script src="js/lib/angular-route.min.js"></script>
   <script src="js/controllers/HomeController.js"></script>
+  <script src="js/controllers/ProjectController.js"></script>
+  <script src="js/controllers/MatrixController.js"></script>
+  <script src="js/controllers/FeatureController.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

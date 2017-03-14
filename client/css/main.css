@@ -9,21 +9,41 @@ h1 {
   font-size: 3em;
   font-weight: 700;
   margin-bottom: 0;
-  padding:0;
+  padding: 0;
   text-align: center;
 }
 
 h2 {
   font-family: 'Rubik';
   font-size: .75em;
-  text-transform: uppercase;
-  padding: 0;
   margin: 0;
+  padding: 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
 blockquote {
-  font-style: italic;
   font-size: 1.75em;
+  font-style: italic;
+}
 
+td {
+  font-size: .8em;
+}
+
+table {
+  width: 100%;
+}
+
+tr.mid-point td {
+  border-bottom: 1px dotted #ddd;
+}
+
+tr.bottom td {
+  border-bottom: 1px solid #000;
+}
+
+tfoot tr.legend td {
+  text-align: right;
+  font-size: .5em;
 }
