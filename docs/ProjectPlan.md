@@ -52,8 +52,9 @@
 * ✅Implement Views using UI-Router
 * ✅ Create landing/home page view
 * ✅ Create project page view
-* Implement Form for Project Page
+* ✅ Implement Form for Project Page
 * Investigate AngularChart.js for Matrix View
+    - Hardcoded Data Working. Figure out how to dynamically generate.
 * Implement Signup Form (time permitting)
 * Implement Signin Form (time permitting)
 
