@@ -4,19 +4,21 @@
 
 * ✅ Create Basic Folder Structure to host a Client-Server Application using the MEAN stack.
 
-    .
-    ├── README.md
-    ├── client
-    │   └── index.html
-    ├── docs
-    │   ├── PressRelease.md
-    │   └── ProjectPlan.md
-    ├── package.json
-    └── server
-        ├── config
-        ├── controllers
-        ├── models
-        └── server.js
+
+        .
+        ├── README.md
+        ├── client
+        │   └── index.html
+        ├── docs
+        │   ├── PressRelease.md
+        │   └── ProjectPlan.md
+        ├── package.json
+        └── server
+            ├── config
+            ├── controllers
+            ├── models
+            └── server.js
+
 
 ## Set Up Basic Server Using Express
 
@@ -45,20 +47,19 @@
 * ✅ Create Schema for Projects
 * ✅ Create Schema for Features
 
-## Populate Frontend with Hardcoded Data
-
-* Populate index.html with content 
-* Create end-state application page with content 
-
 ## Create Dynamic Frontend Views and Forms Using Angular.js
 
-* Create a Project Form 
-* Add a Feature Form
-* Signup Form
-* Signin Form
+* ✅Implement Views using UI-Router
+* ✅ Create landing/home page view
+* ✅ Create project page view
+* Implement Form for Project Page
+* Investigate AngularChart.js for Matrix View
+* Implement Signup Form (time permitting)
+* Implement Signin Form (time permitting)
 
 ## Establish Connection Between Frontend and Backend
 
+* Implement API routes and Request Handling
 * Persist Form Data to Database
 * Display Database Data on Frontend
 
@@ -66,7 +67,5 @@
 
 * Implement Signup Process
 * Implement Signin Process
-
-
 
 
