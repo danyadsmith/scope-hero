@@ -1,0 +1,29 @@
+body {
+  font-family: 'Rubik';
+  font-size: 1.25em;
+  padding: 0 5em;
+}
+
+h1 {
+  font-family: 'Passion One';
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding:0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Rubik';
+  font-size: .75em;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.75em;
+
+}
