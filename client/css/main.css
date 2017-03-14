@@ -1,6 +1,6 @@
 body {
   font-family: 'Rubik';
-  font-size: 1.25em;
+  font-size: 1.5em;
   padding: 0 5em;
 }
 
@@ -28,24 +28,11 @@ blockquote {
 }
 
 td {
-  font-size: .8em;
+  font-size: .9em;
 }
 
 table {
   width: 100%;
-}
-
-tr.mid-point td {
-  border-bottom: 1px dotted #ddd;
-}
-
-tr.bottom td {
-  border-bottom: 1px solid #000;
-}
-
-tfoot tr.legend td {
-  text-align: right;
-  font-size: .5em;
 }
 
 nav ul {
@@ -64,4 +51,8 @@ nav ul li {
 
 nav ul li:first-child {
   padding-left: 0;
+}
+
+.narrow {
+  width: 100px !important;
 }

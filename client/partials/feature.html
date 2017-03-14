@@ -1,10 +1,18 @@
-  <table ng-controller="FeatureController as featureCtrl">
+<hr>
+<div class="row" ng-controller="FeatureController as featureCtrl">
+
+  <button class="btn btn-default" ng-click="featureFormController.showForm = !featureFormController.showForm">{{ featureFormController.showForm ? "Cancel" : "Add Feature" }}</button>
+  <feature-form ng-show="featureFormController.showForm" features="featureCtrl.features"></feature-form>
+  <hr>
+  <table>
     <thead>
       <th>Feature</th>
       <th>Area</th>
       <th>Category</th>
       <th>Impact</th>
       <th>Effort</th>
+      <th>Quadrant</th>
+      <th></th>
     </thead>
     <tbody>
       <tr ng-repeat="feature in featureCtrl.features">
@@ -13,6 +21,9 @@
         <td>{{ feature.category }}</td>
         <td>{{ feature.impact }}/10</td>
         <td>{{ feature.effort }}/10</td>
+        <td>{{ feature.quadrant }}</td>
+        <td>Edit</td>
       </tr>
     </tbody>
   </table>
+</div>
