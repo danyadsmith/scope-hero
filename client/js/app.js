@@ -20,7 +20,7 @@ angular.module('scopeHero', [
       views: {
         'homePanelView': {
           controller: 'HomeController',
-          templateUrl: '../js/views/home.html'
+          templateUrl: '../partials/home.html'
         }
       }
     })
@@ -29,15 +29,15 @@ angular.module('scopeHero', [
       views: {
         'projectPanelView': {
           controller: 'ProjectController',
-          templateUrl: '../js/views/project.html'
+          templateUrl: '../partials/project.html'
         },
         'matrixPanelView': {
           controller: 'MatrixController',
-          templateUrl: '../js/views/matrix.html'
+          templateUrl: '../partials/matrix.html'
         },
         'featuresPanelView': {
           controller: 'FeatureController',
-          templateUrl: '../js/views/feature.html'
+          templateUrl: '../partials/feature.html'
         }
       }
     });

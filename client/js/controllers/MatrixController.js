@@ -5,7 +5,7 @@ angular.module('scopeHero.matrix', ['chart.js'])
     function ($scope) {
       // see examples/bubble.js for random bubbles source code
       $scope.series = ['Q1: Quick Wins/Proceed', 'Q2: Challenges/Investigate', 'Q3: Fill Ins/Consider', 'Q4: Thankless/Kill'];
-      $scope.color = ['##00cc00', '#99eb00', '#ffc000', '#ff0000'];
+      $scope.colors = ['rgb(0, 204, 0)', 'rgb(153, 235, 0)', 'rgb(255, 192, 0)', 'rgb(255, 0, 0)'];
       $scope.data = [
         [
           { x: 3, y: 9, r: 7},
