@@ -1,33 +1,33 @@
 var mongoose = require('mongoose');
 
 var FeatureSchema = new mongoose.Schema({
-  project_id: {
-    type: String,
-    required: true,
-    unique: false
-  },
   feature: {
     type: String,
     required: true,
     unique: true
   },
+  area: {
+    type: String,
+    required: false,
+    unique: false
+  },
+  category: {
+    type: String,
+    required: false,
+    unique: false
+  },
   impact: {
     type: Number,
     required: true,
-    unique: true
+    unique: false
   },
   effort: {
     type: Number,
     required: true,
-    unique: true
+    unique: false
   },
   quadrant: {
     type: Number,
-    required: false,
-    unique: false
-  },
-  is_mvp_feature: {
-    type: Boolean,
     required: false,
     unique: false
   }

@@ -1,6 +1,7 @@
 /* global angular */
 
 angular.module('scopeHero', [
+  'scopeHero.services',
   'scopeHero.home',
   'scopeHero.project',
   'scopeHero.feature',
