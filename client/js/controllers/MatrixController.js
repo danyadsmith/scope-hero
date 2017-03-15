@@ -2,7 +2,19 @@
 
 angular.module('scopeHero.matrix', ['chart.js'])
   .controller('MatrixController',
-    function ($scope) {
+    function ($scope, Features) {
+      $scope.rawData = {};
+
+      Features.getAll().then(function (features) {
+        $scope.rawData.features = features;
+        //console.log('ALL FEATURES: ', features);
+      });
+
+      var generateMatrix = function(data, qNo) {
+        window.rawData = data;
+        var quadrant = [];
+      }
+      generateMatrix($scope.rawData);
       // see examples/bubble.js for random bubbles source code
       $scope.series = ['Q1: Quick Wins/Proceed', 'Q2: Challenges/Investigate', 'Q3: Fill Ins/Consider', 'Q4: Thankless/Kill'];
       $scope.labels = ['Impact', 'Effort'];

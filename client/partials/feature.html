@@ -12,17 +12,15 @@
       <th>Impact</th>
       <th>Effort</th>
       <th>Quadrant</th>
-      <th></th>
     </thead>
     <tbody>
-      <tr ng-repeat="feature in featureCtrl.features">
+      <tr ng-repeat="feature in data.features">
         <td>{{ feature.feature }}</td>
         <td>{{ feature.area }}</td>
         <td>{{ feature.category }}</td>
         <td>{{ feature.impact }}/10</td>
         <td>{{ feature.effort }}/10</td>
         <td>{{ feature.quadrant }}</td>
-        <td>Edit</td>
       </tr>
     </tbody>
   </table>

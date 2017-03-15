@@ -11,8 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 require('./config/db.js');
-//require('./config/router.js');
-app.post('/api/features/', featuresController.newFeature);
+
 
 app.use(methodOverride('X-HTTP-Method-Override'));
 
@@ -24,6 +23,8 @@ app.use(function (req, res, next) {
 });
 
 app.use(express.static('client'));
+app.post('/api/features/', featuresController.newFeature);
+app.get('/api/features/', featuresController.allFeatures);
 
 var port = process.env.PORT || 5459;
 

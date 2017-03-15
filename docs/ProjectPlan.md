@@ -61,8 +61,12 @@
 ## Establish Connection Between Frontend and Backend
 
 * Implement API routes and Request Handling
-* Persist Form Data to Database
+    - ✅ GET
+    - ✅ POST
+    - PUT
+* ✅ Persist Form Data to Database
 * Display Database Data on Frontend
+    - Partially working.
 
 ## Create User Authentication
 
