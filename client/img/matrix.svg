@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="944px" height="787px" viewBox="0 0 944 787" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="279.195" y="301">YES</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="557.125" y="301">MAYBE</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-5" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="264.125" y="584">MAYBE</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-7" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="577.65" y="584">NO</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-9" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="287.08" y="163">Q1</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-11" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="578.52" y="163">Q2</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-13" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="285.19" y="450">Q4</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-15" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="578.41" y="450">Q3</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="162" y="71" width="591" height="591"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="591" height="591" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <text id="text-19" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="3.73999993" y="90">High Impac</tspan>
+            <tspan x="115.64" y="90">t</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-21" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="243.28" y="271">(Proceed…)</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-23" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="521.07" y="271">(Investigate…)</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-25" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="6.81499994" y="618">Low Impac</tspan>
+            <tspan x="112.565" y="618">t</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-27" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="159.38" y="727">Low Effor</tspan>
+            <tspan x="253" y="727">t</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-29" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="656.305" y="727">High Effor</tspan>
+            <tspan x="756.075" y="727">t</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-30">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-31" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="241.335" y="555">(Consider…)</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-33" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
+            <tspan x="531.29" y="555">(Eliminate…)</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="YES" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+            <use xlink:href="#text-1"></use>
+        </g>
+        <g id="MAYBE" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+            <use xlink:href="#text-3"></use>
+        </g>
+        <g id="MAYBE" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+            <use xlink:href="#text-5"></use>
+        </g>
+        <g id="NO" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+            <use xlink:href="#text-7"></use>
+        </g>
+        <g id="Q1" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-10)" xlink:href="#text-9"></use>
+            <use xlink:href="#text-9"></use>
+        </g>
+        <g id="Q2" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-12)" xlink:href="#text-11"></use>
+            <use xlink:href="#text-11"></use>
+        </g>
+        <g id="Q4" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-14)" xlink:href="#text-13"></use>
+            <use xlink:href="#text-13"></use>
+        </g>
+        <g id="Q3" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-16)" xlink:href="#text-15"></use>
+            <use xlink:href="#text-15"></use>
+        </g>
+        <use id="Rectangle" stroke="#979797" mask="url(#mask-18)" stroke-width="2" xlink:href="#path-17"></use>
+        <g id="High-Impact" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-20)" xlink:href="#text-19"></use>
+            <use xlink:href="#text-19"></use>
+        </g>
+        <g id="(Proceed…)" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-22)" xlink:href="#text-21"></use>
+            <use xlink:href="#text-21"></use>
+        </g>
+        <g id="(Investigate…)" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-24)" xlink:href="#text-23"></use>
+            <use xlink:href="#text-23"></use>
+        </g>
+        <text id="Quick-Wins" font-family="AndaleMono, Andale Mono" font-size="36" font-weight="normal" letter-spacing="-3.85714149" fill="#000000">
+            <tspan x="218.268129" y="205">Quick Wins</tspan>
+        </text>
+        <text id="(Necessary,-Essentia" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="12.825" y="120">(Necessary,</tspan>
+            <tspan x="22.005" y="145">Essential</tspan>
+            <tspan x="100.195" y="145">)</tspan>
+        </text>
+        <path d="M457.5,69.5 L457.5,661.578542" id="Line" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M162.5,366.5 L752.856672,366.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+        <text id="Impact/Effort-Matrix" font-family="CabritoSans-NorBol, Cabrito Sans" font-size="48" font-weight="bold" letter-spacing="-0.800000012" fill="#000000">
+            <tspan x="226.932" y="38">Impact/Effort Matri</tspan>
+            <tspan x="662.34" y="38">x</tspan>
+        </text>
+        <path d="M166.5,681.5 L743.5,681.5" id="Line" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M743.5,681.5 L732.7,678.5 L732.7,684.5 L743.5,681.5 Z" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
+        <path d="M144.5,658.5 L144.5,84.5" id="Line" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M144.5,84.5 L141.5,95.3 L147.5,95.3 L144.5,84.5 Z" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
+        <text id="Fill-in-Jobs" font-family="AndaleMono, Andale Mono" font-size="36" font-weight="normal" letter-spacing="-3.85714149" fill="#000000">
+            <tspan x="204.521755" y="489">Fill-in Jobs</tspan>
+        </text>
+        <text id="Major-Projects" font-family="AndaleMono, Andale Mono" font-size="36" font-weight="normal" letter-spacing="-3.85714149" fill="#000000">
+            <tspan x="477.275381" y="205">Major Projects</tspan>
+        </text>
+        <g id="Low-Impact" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-26)" xlink:href="#text-25"></use>
+            <use xlink:href="#text-25"></use>
+        </g>
+        <g id="Low-Effort" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-28)" xlink:href="#text-27"></use>
+            <use xlink:href="#text-27"></use>
+        </g>
+        <g id="High-Effort" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-30)" xlink:href="#text-29"></use>
+            <use xlink:href="#text-29"></use>
+        </g>
+        <text id="Thankless-Tasks" font-family="AndaleMono, Andale Mono" font-size="36" font-weight="normal" letter-spacing="-3.85714149" fill="#000000">
+            <tspan x="468.402194" y="489">Thankless Tasks</tspan>
+        </text>
+        <text id="(Beneficial,-Nice-to" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="18.995" y="359">(Beneficial,</tspan>
+            <tspan x="9.97000003" y="384">Nice to have</tspan>
+            <tspan x="118.23" y="384">)</tspan>
+        </text>
+        <text id="(Extranneous,-Unesse" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="-0.334999969" y="645">(Extranneous,</tspan>
+            <tspan x="6.05500003" y="670">Unessential</tspan>
+            <tspan x="108.145" y="670">)</tspan>
+        </text>
+        <text id="(Moderately-Challeng" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="348.31" y="757">(Moderately Challenging,</tspan>
+            <tspan x="382.85" y="782">Time Consuming</tspan>
+            <tspan x="527.35" y="782">)</tspan>
+        </text>
+        <text id="(Relatively-Easy,-Qu" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="140.245" y="757">(Relatively Easy,</tspan>
+            <tspan x="122.18" y="782">Quick to Implement</tspan>
+            <tspan x="294.02" y="782">)</tspan>
+        </text>
+        <text id="(Very-Challenging,-T" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#000000">
+            <tspan x="631.39" y="757">(Very Challenging,</tspan>
+            <tspan x="637.24" y="782">Time Prohibitive</tspan>
+            <tspan x="777.96" y="782">)</tspan>
+        </text>
+        <path d="M164.5,229.5 L751.5,229.5" id="Line" stroke="#50E3C2" stroke-linecap="square" stroke-dasharray="1,1,3"></path>
+        <text id="Your-MVP-will-be-fou" font-family="CabritoSans-ConBoo, Cabrito Sans" font-size="20" font-style="condensed" font-weight="300" letter-spacing="0.629999995" fill="#50E3C2">
+            <tspan x="787.86" y="195">Your MVP will be </tspan>
+            <tspan x="778.78" y="220">found in these two </tspan>
+            <tspan x="774.87" y="245">quadrants hovering </tspan>
+            <tspan x="781.11" y="270">near or above this </tspan>
+            <tspan x="842.575" y="295">line.</tspan>
+        </text>
+        <g id="(Consider…)" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-32)" xlink:href="#text-31"></use>
+            <use xlink:href="#text-31"></use>
+        </g>
+        <g id="(Eliminate…)" fill-opacity="1" fill="#000000">
+            <use filter="url(#filter-34)" xlink:href="#text-33"></use>
+            <use xlink:href="#text-33"></use>
+        </g>
+    </g>
+</svg>
