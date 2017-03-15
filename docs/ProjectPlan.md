@@ -54,7 +54,8 @@
 * ✅ Create project page view
 * ✅ Implement Form for Project Page
 * Investigate AngularChart.js for Matrix View
-    - Hardcoded Data Working. Figure out how to dynamically generate.
+    - ✅ Hardcoded Data Working. Figure out how to dynamically generate.
+    - ✅ Initial charting working, but clunky...
 * Implement Signup Form (time permitting)
 * Implement Signin Form (time permitting)
 
@@ -65,8 +66,7 @@
     - ✅ POST
     - PUT
 * ✅ Persist Form Data to Database
-* Display Database Data on Frontend
-    - Partially working.
+* ✅ Display Database Data on Frontend
 
 ## Create User Authentication
 
