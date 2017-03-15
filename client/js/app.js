@@ -42,4 +42,7 @@ angular.module('scopeHero', [
         }
       }
     });
-});
+})
+.config(['$qProvider', function ($qProvider) {
+  $qProvider.errorOnUnhandledRejections(false);
+}]);

@@ -3,82 +3,60 @@
 angular.module('scopeHero.matrix', ['chart.js'])
   .controller('MatrixController',
     function ($scope, Features) {
-      $scope.rawData = {};
 
-      Features.getAll().then(function (features) {
-        $scope.rawData.features = features;
-        //console.log('ALL FEATURES: ', features);
-      });
-
-      var generateMatrix = function(data, qNo) {
-        window.rawData = data;
-        var quadrant = [];
-      }
-      generateMatrix($scope.rawData);
-      // see examples/bubble.js for random bubbles source code
       $scope.series = ['Q1: Quick Wins/Proceed', 'Q2: Challenges/Investigate', 'Q3: Fill Ins/Consider', 'Q4: Thankless/Kill'];
       $scope.labels = ['Impact', 'Effort'];
       $scope.colors = ['rgb(0, 204, 0)', 'rgb(153, 235, 0)', 'rgb(255, 192, 0)', 'rgb(255, 0, 0)'];
-      $scope.data = [
-        [
-          { x: 3, y: 9, r: 7},
-          { x: 2, y: 9, r: 7},
-          { x: 3, y: 8, r: 7},
-          { x: 1, y: 6, r: 7},
-          { x: 4, y: 7, r: 7},
-          { x: 5, y: 6, r: 7},
-          { x: 3, y: 8, r: 7},
-          { x: 2, y: 7, r: 7},
-          { x: 3, y: 8, r: 7},
-          { x: 4, y: 9, r: 7},
-          { x: 1, y: 5, r: 7},
-          { x: 5, y: 8, r: 7},
-          { x: 2, y: 10, r: 7}
-        ],
-        [
-          { x: 7, y: 9, r: 6 },
-          { x: 8, y: 9, r: 6 },
-          { x: 9, y: 8, r: 6 },
-          { x: 7, y: 6, r: 6 },
-          { x: 8, y: 7, r: 6 },
-          { x: 8, y: 5, r: 6 },
-          { x: 9, y: 8, r: 6 },
-          { x: 10, y: 7, r: 6,},
-          { x: 9, y: 8, r: 6 },
-          { x: 6, y: 9, r: 6 },
-          { x: 7, y: 5, r: 6 },
-          { x: 9, y: 8, r: 6 },
-          { x: 8, y: 10, r: 6 }
-        ],
-        [
-          { x: 2, y: 3, r: 5 },
-          { x: 3, y: 4, r: 5 },
-          { x: 1, y: 2, r: 5 },
-          { x: 4, y: 3, r: 5 },
-          { x: 5, y: 1, r: 5 },
-          { x: 3, y: 3, r: 5 },
-          { x: 2, y: 4, r: 5 },
-          { x: 3, y: 3, r: 5,},
-          { x: 4, y: 5, r: 5 },
-          { x: 1, y: 2, r: 5 },
-          { x: 5, y: 3, r: 5 },
-          { x: 3, y: 2, r: 5 },
-          { x: 2, y: 1, r: 5 }
-        ],
-        [
-          { x: 8, y: 2, r: 3 },
-          { x: 9, y: 3, r: 3 },
-          { x: 7, y: 1, r: 3 },
-          { x: 8, y: 4, r: 3 },
-          { x: 8, y: 5, r: 3 },
-          { x: 9, y: 3, r: 3 },
-          { x: 10, y: 2, r: 3 },
-          { x: 8, y: 3, r: 3,},
-          { x: 9, y: 4, r: 3 },
-          { x: 7, y: 1, r: 3 },
-          { x: 8, y: 5, r: 3 },
-          { x: 10, y: 3, r: 3 },
-          { x: 6, y: 1, r: 3 }
-        ]
-      ];
+
+      var generateMatrix = function (data, qNo) {
+        var matrix = [];
+        data.forEach(function (feature) {
+          console.log('feature: ', feature);
+          if(feature.quadrant === qNo) {
+            matrix.push({
+              x: feature.effort,
+              y: feature.impact,
+              z: getBubbleSize(qNo)
+            });
+          }
+        });
+        return matrix;
+      };
+
+      var getBubbleSize = function (qNo) {
+        var size = 3;
+        switch (qNo) {
+        case 1:
+          size = 9;
+          break;
+        case 2:
+          size = 7;
+          break;
+        case 3:
+          size = 5;
+          break;
+        default:
+          break;
+        }
+        return size;
+      };
+
+      var q1, q2, q3, q4;
+
+      Features.getAll()
+      .then(function (features) {
+        q1 = generateMatrix(features, 1);
+        q2 = generateMatrix(features, 2);
+        q3 = generateMatrix(features, 3);
+        q4 = generateMatrix(features, 4);
+      });
+
+      setTimeout(function(){
+        $scope.data = [
+          q1,
+          q2,
+          q3,
+          q4
+        ];
+      }, 2000)
     });
