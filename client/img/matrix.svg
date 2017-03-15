@@ -53,7 +53,7 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <text id="text-13" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
-            <tspan x="285.19" y="450">Q4</tspan>
+            <tspan x="285.41" y="450">Q3</tspan>
         </text>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
@@ -61,7 +61,7 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <text id="text-15" font-family="Rubik-Medium, Rubik" font-size="20" font-weight="400" letter-spacing="0.330000013" fill="#000000">
-            <tspan x="578.41" y="450">Q3</tspan>
+            <tspan x="578.19" y="450">Q4</tspan>
         </text>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
@@ -166,11 +166,11 @@
             <use filter="url(#filter-12)" xlink:href="#text-11"></use>
             <use xlink:href="#text-11"></use>
         </g>
-        <g id="Q4" fill-opacity="1" fill="#000000">
+        <g id="Q3" fill-opacity="1" fill="#000000">
             <use filter="url(#filter-14)" xlink:href="#text-13"></use>
             <use xlink:href="#text-13"></use>
         </g>
-        <g id="Q3" fill-opacity="1" fill="#000000">
+        <g id="Q4" fill-opacity="1" fill="#000000">
             <use filter="url(#filter-16)" xlink:href="#text-15"></use>
             <use xlink:href="#text-15"></use>
         </g>
